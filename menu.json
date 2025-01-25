@@ -1,0 +1,76 @@
+{
+    "menu": [
+        {
+            "name": "Inicio",
+            "link": "#",
+            "submenu": [
+                {"name": "Introducción a la Encuesta", "link": "inicio1.html"},
+                {"name": "Propósito del estudio", "link": "inicio2.html"},
+                {"name": "Estadísticas Previas", "link": "inicio3.html"}
+            ]
+        },
+        {
+            "name": "Iniciar Encuesta",
+            "link": "#",
+            "submenu": [
+                {"name": "Configuración Inicial", "link": "formulario1.html"},
+                {"name": "Escenarios Presetados", "link": "formulario2.html"},
+                {"name": "Decisiones tomadas", "link": "formulario3.html"},
+                {"name": "Avance en la encuesta", "link": "formulario4.html"}
+            ]
+        },
+        {
+            "name": "Resultados",
+            "link": "#",
+            "submenu": [
+                {"name": "Resumen de Resultados", "link": "estadistica1.html"},
+                {"name": "Comparativa de otros usuarios", "link": "estadistica2.html"},
+                {"name": "Tendencia de moralidad", "link": "estadistica3.html"}
+            ]
+        },
+        {
+            "name": "Recursos Educativos",
+            "link": "#",
+            "submenu": [
+                {"name": "Libros de moralidad", "link": "recursos1.html"},
+                {"name": "Videos de dilemas éticos", "link": "recursos2.html"},
+                {"name": "Podcast Recomendados", "link": "recursos3.html"},
+                {"name": "Artículos", "link": "recursos4.html"}
+            ]
+        },
+        {
+            "name": "Escenarios",
+            "link": "#",
+            "submenu": [
+                {"name": "Dilemas éticos más comunes", "link": "testimonios1.html"},
+                {"name": "Decisiones Impactantes", "link": "testimonios2.html"}
+            ]
+        },
+        {
+            "name": "Estadísticas Generales",
+            "link": "#",
+            "submenu": [
+                {"name": "Escenarios más comunes", "link": "soporte1.html"},
+                {"name": "Resultados Globales", "link": "soporte2.html"}
+            ]
+        },
+        {
+            "name": "FAQs",
+            "link": "#",
+            "submenu": [
+                {"name": "Cómo participar", "link": "promociones1.html"},
+                {"name": "Privacidad de datos", "link": "promociones2.html"}
+            ]
+        },
+        {
+            "name": "Contacto",
+            "link": "#",
+            "submenu": [
+                {"name": "Redes sociales", "link": "contacto1.html"},
+                {"name": "Formulario de contacto", "link": "contacto2.html"},
+                {"name": "Propuestas de nuevos Escenarios", "link": "contacto3.html"},
+                {"name": "Consultas sobre la Encuesta", "link": "contacto4.html"}
+            ]
+        }
+    ]
+}

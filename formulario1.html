@@ -1,0 +1,89 @@
+1<!DOCTYPE html>
+2<html lang="es">
+3<head>
+4    <meta charset="UTF-8">
+5    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6    <title>Encuesta de Decisiones Morales</title>
+7    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+8</head>
+9<body>
+10    <div class="container mt-5">
+11        <h1>Encuesta de Decisiones Morales en una Historia</h1>
+12        <form>
+13            <!-- Contexto de la Historia -->
+14            <h3>1. Contexto de la Historia</h3>
+15            <div class="form-group">
+16                <label for="titulo">Título:</label>
+17                <input type="text" class="form-control" id="titulo" required>
+18            </div>
+19            <div class="form-group">
+20                <label for="autor">Autor:</label>
+21                <input type="text" class="form-control" id="autor" required>
+22            </div>
+23            <div class="form-group">
+24                <label for="sinopsis">Breve sinopsis:</label>
+25                <textarea class="form-control" id="sinopsis" rows="3" required></textarea>
+26            </div>
+27
+28            <!-- Características de los Personajes -->
+29            <h3>2. Características de los Personajes</h3>
+30            <div class="form-group">
+31                <label for="nombrePersonaje">Nombre del personaje:</label>
+32                <input type="text" class="form-control" id="nombrePersonaje" required>
+33            </div>
+34            <div class="form-group">
+35                <label for="descripcionPersonaje">Descripción breve:</label>
+36                <textarea class="form-control" id="descripcionPersonaje" rows="3" required></textarea>
+37            </div>
+38            <div class="form-group">
+39                <label for="motivaciones">Motivaciones principales:</label>
+40                <textarea class="form-control" id="motivaciones" rows="3" required></textarea>
+41            </div>
+42
+43            <!-- Dilema Moral -->
+44            <h3>3. Dilema Moral</h3>
+45            <div class="form-group">
+46                <label for="dilema">Describe brevemente la situación:</label>
+47                <textarea class="form-control" id="dilema" rows="3" required></textarea>
+48            </div>
+49
+50            <!-- Opciones del Personaje -->
+51            <h3>4. Opciones del Personaje</h3>
+52            <div class="form-group">
+53                <label for="opcionA">Opción A:</label>
+54                <textarea class="form-control" id="opcionA" rows="2" required></textarea>
+55            </div>
+56            <div class="form-group">
+57                <label for="opcionB">Opción B:</label>
+58                <textarea class="form-control" id="opcionB" rows="2" required></textarea>
+59            </div>
+60            <div class="form-group">
+61                <label for="opcionC">Opción C:</label>
+62                <textarea class="form-control" id="opcionC" rows="2" required></textarea>
+63            </div>
+64
+65            <!-- Decisión Final -->
+66            <h3>5. Decisión Final</h3>
+67            <div class="form-group">
+68                <label for="decision">¿Cuál opción eligió el personaje?</label>
+69                <input type="text" class="form-control" id="decision" required>
+70            </div>
+71            <div class="form-group">
+72                <label for="razonDecision">¿Por qué tomaron esa decisión?</label>
+73                <textarea class="form-control" id="razonDecision" rows="3" required></textarea>
+74            </div>
+75
+76            <!-- Consecuencias de la Decisión -->
+77            <h3>6. Consecuencias de la Decisión</h3>
+78            <div class="form-group">
+79                <label for="impactoInmediato">Impacto inmediato:</label>
+80                <textarea class="form-control" id="impactoInmediato" rows="3" required></textarea>
+81            </div>
+82            <div class="form-group">
+83                <label for="consecuenciasLargoPlazo">Consecuencias a largo plazo:</label>
+84                <textarea class="form-control" id="consecuenciasLargoPlazo" rows="3" required></textarea>
+85            </div>
+86            <div class="form-group">
+87                <label for="reflexiones">Reflexiones finales del personaje sobre su decisión:</label>
+88</body>
+</html>

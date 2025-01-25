@@ -1,0 +1,16 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Perfil de Usuario</title>  
+</head>  
+<body>  
+    <h1>Perfil de Usuario</h1>  
+    <div id="userData"></div>  
+    <script>  
+        // Aquí deberías obtener el usuario logueado y mostrar sus datos  
+        let username = localStorage.getItem('username'); // Simulando sesión  
+        document.getElementById('userData').innerText = `Bienvenido, ${username}. Aquí están sus datos personales.`;  
+    </script>  
+</body>  
+</html>  

@@ -1,0 +1,59 @@
+<menu>
+    <item name="Inicio" link="#">
+        <submenu>
+            <item name="introducccion a la Encuesta" link="inicio1.html"></item>
+            <item name="Proposito del estudio" link="inicio2.html"></item>
+            <item name="Estadisticas Previas" link="inicio3.html"></item>
+        </submenu>
+    </item>
+    <item name="Iniciar Encuesta" link="#">
+        <submenu>
+            <item name="Configuracion Inicial" link="formulario1.html"></item>
+              <item name="Esenarios Presetados" link="formulario2.html"></item>
+            <item name="Decisiones tomadas" link="formulario3.html"></item>
+            <item name="Avance en la encuesta" link="formulario4.html"></item>
+        </submenu>
+    </item>
+    <item name="Resultados " link="#">
+        <submenu>
+            <item name="Resumen de Resultados " link="estadistica1.html"></item>
+            <item name="Comparativa de otros usuarios " link="estadistica2.html"></item>
+            <item name="tendencia de moralidad" link="estadistica3.html"></item>
+        </submenu>
+    </item>
+    <item name="Recursos Educativos" link="#">
+        <submenu>
+            <item name="libros de moralidad" link="recursos1.html"></item>
+            <item name="videos de dilemas eticos" link="recursos2.html"></item>
+            <item name="Podcast Recomendados" link="recursos3.html"></item>
+            <item name="Articulos " link="recursos4.html"></item>
+        </submenu>
+    </item>
+    <item name="Ecenarios" link="#">
+        <submenu>
+            <item name="Dilemas eticos mas comunes " link="testimonios1.html"></item>
+            <item name="Decisiones Impactantes" link="testimonios2.html"></item>
+        </submenu>
+    </item>
+    <item name="Etadisticas Generales " link="#">
+        <submenu>
+            <item name="Ecenarios mas comunes" link="soporte1.html"></item>
+            <item name="Resultados Globales" link="soporte2.html"></item>
+        </submenu>
+    </item>
+    <item name="FAQs" link="#">
+        <submenu>
+            <item name="como participar" link="promociones1.html"></item>
+            <item name="privacidad de datos " link="promociones2.html"></item>
+		</submenu>
+    </item>
+    <item name="Contacto" link="#">
+        <submenu>
+            <item name="Redes sociales" link="contacto1.html"></item>
+            <item name="Formulario de contacto" link="contacto2.html"></item>
+            <item name="Propuestas de nuevos Esenarios" link="contacto3.html"></item>
+            <item name="Consultas sobre la Encuesta" link="contacto4.html"></item>
+        </submenu>
+    </item>
+</menu>
+

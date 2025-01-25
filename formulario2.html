@@ -1,0 +1,87 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Encuesta de Escenarios Morales</title>  
+</head>  
+<body>  
+
+    <div class="container mt-5">  
+        <h1>Encuesta sobre Decisiones Morales en Escenarios Presetados</h1>  
+        <form>  
+            <div class="form-group">  
+                <label for="nombre">Nombre:</label>  
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>  
+            </div>  
+
+            <div class="form-group">  
+                <label for="email">Correo Electrónico:</label>  
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>  
+            </div>  
+
+            <h3>Escenarios</h3>  
+            <div class="form-group">  
+                <label><strong>Escenario 1:</strong> Te encuentras en una playa y ves a alguien que se está ahogando. No hay nadie alrededor. ¿Qué harías?</label>  
+                <div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario1" id="escenario1_opcion1" value="Salvar a la persona" required>  
+                        <label class="form-check-label" for="escenario1_opcion1">Salvar a la persona</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario1" id="escenario1_opcion2" value="Llamar a ayuda">  
+                        <label class="form-check-label" for="escenario1_opcion2">Llamar a ayuda</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario1" id="escenario1_opcion3" value="No hacer nada">  
+                        <label class="form-check-label" for="escenario1_opcion3">No hacer nada</label>  
+                    </div>  
+                </div>  
+            </div>  
+
+            <div class="form-group">  
+                <label><strong>Escenario 2:</strong> Encuentras una billetera en la calle con dinero en efectivo. ¿Qué harías?</label>  
+                <div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario2" id="escenario2_opcion1" value="Devolver la billetera" required>  
+                        <label class="form-check-label" for="escenario2_opcion1">Devolver la billetera</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario2" id="escenario2_opcion2" value="Quedarmela">  
+                        <label class="form-check-label" for="escenario2_opcion2">Quedarmela</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario2" id="escenario2_opcion3" value="Donarla a la caridad">  
+                        <label class="form-check-label" for="escenario2_opcion3">Donarla a la caridad</label>  
+                    </div>  
+                </div>  
+            </div>  
+
+            <div class="form-group">  
+                <label><strong>Escenario 3:</strong> Un amigo te pide que lo cubras en una mentira. ¿Qué harías?</label>  
+                <div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario3" id="escenario3_opcion1" value="Cubrirlo" required>  
+                        <label class="form-check-label" for="escenario3_opcion1">Cubrirlo</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario3" id="escenario3_opcion2" value="Decir la verdad">  
+                        <label class="form-check-label" for="escenario3_opcion2">Decir la verdad</label>  
+                    </div>  
+                    <div class="form-check">  
+                        <input class="form-check-input" type="radio" name="escenario3" id="escenario3_opcion3" value="Hablar con él antes de decidir">  
+                        <label class="form-check-label" for="escenario3_opcion3">Hablar con él antes de decidir</label>  
+                    </div>  
+                </div>  
+            </div>  
+
+            <button type="submit" class="btn btn-primary">Enviar Encuesta</button>  
+        </form>  
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>  

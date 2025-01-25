@@ -1,0 +1,22 @@
+{  
+    "usuarios": [  
+        {  
+            "username": "admin",  
+            "password": "admin123",  
+            "role": "administrador",  
+            "data": "Este es el panel de administración."  
+        },  
+        {  
+            "username": "cliente1",  
+            "password": "cliente123",  
+            "role": "cliente",  
+            "data": "Datos del cliente 1."  
+        },  
+        {  
+            "username": "invitado1",  
+            "password": "invitado123",  
+            "role": "invitado",  
+            "data": "Datos del invitado 1."  
+        }  
+    ]  
+}  

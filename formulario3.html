@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Encuesta sobre Decisiones Morales</title>  
+</head>  
+<body>  
+
+    <div class="container mt-5">  
+        <h1>Encuesta sobre Decisiones Tomadas en Escenarios Morales</h1>  
+        <form>  
+            <div class="form-group">  
+                <label for="nombre">Nombre:</label>  
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>  
+            </div>  
+
+            <div class="form-group">  
+                <label for="email">Correo Electrónico:</label>  
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>  
+            </div>  
+
+            <h3>Escenarios Morales</h3>  
+
+            <div class="form-group">  
+                <label><strong>Escenario 1:</strong> Alguien en tu grupo de amigos ha hecho trampas en un juego. ¿Cómo reaccionarías?</label>  
+                <select class="form-control" name="escenario1" required>  
+                    <option value="">Selecciona una opción</option>  
+                    <option value="Confrontarlo">Confrontarlo</option>  
+                    <option value="Ignorarlo">Ignorarlo</option>  
+                    <option value="Hablar con los demás">Hablar con los demás</option>  
+                    <option value="Perdonarlo">Perdonarlo</option>  
+                </select>  
+            </div>  
+
+            <div class="form-group">  
+                <label><strong>Escenario 2:</strong> Te enteras que un compañero de trabajo está robando dinero de la empresa. ¿Qué harías?</label>  
+                <select class="form-control" name="escenario2" required>  
+                    <option value="">Selecciona una opción</option>  
+                    <option value="Denunciarlo">Denunciarlo</option>  
+                    <option value="Hablar con él primero">Hablar con él primero</option>  
+                    <option value="Informar a un superior">Informar a un superior</option>  
+                    <option value="Ignorarlo">Ignorarlo</option>  
+                </select>  
+            </div>  
+
+            <div class="form-group">  
+                <label><strong>Escenario 3:</strong> Encuentras un libro en la biblioteca que sabes que ha sido robado. ¿Qué harías?</label>  
+                <select class="form-control" name="escenario3" required>  
+                    <option value="">Selecciona una opción</option>  
+                    <option value="Devolverlo">Devolverlo</option>  
+                    <option value="Quédatelo">Quédatelo</option>  
+                    <option value="Informar a la biblioteca">Informar a la biblioteca</option>  
+                    <option value="No hacer nada">No hacer nada</option>  
+                </select>  
+            </div>  
+
+            <div class="form-group">  
+                <label for="reflexiones">Reflexiones sobre tus decisiones:</label>  
+                <textarea class="form-control" id="reflexiones" rows="3" placeholder="Comparte tus pensamientos sobre las decisiones tomadas..."></textarea>  
+            </div>  
+
+            <button type="submit" class="btn btn-primary">Enviar Encuesta</button>  
+        </form>  
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>  
